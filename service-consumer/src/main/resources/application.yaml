@@ -2,4 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: study-nacos
+    name: study-nacos-consumer
+  cloud:
+    nacos:
+      server-addr: 10.6.0.13:8848

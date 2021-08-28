@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author dingyu
  * @date 2021-08-24 23:24
  */
-@FeignClient("study-nacos")
+@FeignClient("study-nacos-provider")
 public interface HelloApi {
 
     /**
